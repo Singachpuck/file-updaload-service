@@ -11,6 +11,10 @@ Application provides REST service to upload and manage files
 - Remove tags (DELETE /file/{ID}/tags)
 - List files and filter them (GET /file?tags=tag1,tag2,tag3&page=2&size=3)
 
+## Additional features:
+- Added query search (GET /file?q=aaa)
+- Supported autotagging based on extension
+
 ## How to run:
 
 Application is build using Spring Boot Framework.\
